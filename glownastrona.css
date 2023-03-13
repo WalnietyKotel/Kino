@@ -1,0 +1,66 @@
+body{
+        background-image: url(https://static.skyassets.com/contentstack/assets/blt292fe19f56d1a1a8/bltc23c49bf4cfae057/603d78110be9e76ed39a826e/TVPage_Cinema_AllModals_Background_Desktop.png);
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+}
+    header {
+    height: 1000px;
+
+    background-image: url(mainBackground.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+#fajnekino {
+    font-size: 50px;
+    color: rgba(255, 115, 0, 0.715);
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: 2000px;
+    background-color: yellow;
+}
+
+footer {
+    background-color: red;
+}
+ul {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    padding: 1em;
+    color: yellow;
+    font-size: 70px;
+    text-decoration: none;
+}
+h1{
+    font-size: 70px;
+    top: -55%;
+    position: relative;
+}

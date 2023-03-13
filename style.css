@@ -1,0 +1,96 @@
+body{
+    background-image: url(https://static.skyassets.com/contentstack/assets/blt292fe19f56d1a1a8/bltc23c49bf4cfae057/603d78110be9e76ed39a826e/TVPage_Cinema_AllModals_Background_Desktop.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    top: -90%;
+    scale: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    position: absolute;
+}
+
+
+header{
+    display: flex;
+    background-color: rgb(101, 21, 13);
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    border: collapse;
+    justify-content: space-evenly;
+}
+
+.start{
+    cursor: pointer;
+    text-decoration: none;
+}
+.konto{
+    text-decoration: none;
+}
+.start:hover{
+    background-color: rgb(238, 255, 0);
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.konto:hover{
+    background-color: rgb(238, 255, 0);
+    color: red;
+    border-radius: 10px;
+}
+
+main{
+    scale: 65%;
+}
+.sw1:hover{
+    scale: 120%;
+}
+.sw2:hover{
+    scale: 120%;
+}
+.sw3:hover{
+    scale: 120%;
+}
+.sw4:hover{
+    scale: 120%;
+}
+.sw5:hover{
+    scale: 120%;
+}
+.im1:hover{
+    scale: 120%;
+}
+.im2:hover{
+    scale: 120%;
+}
+.im3:hover{
+    scale: 120%;
+}
+.cap1:hover{
+    scale: 120%;
+}
+.sw{
+    margin-bottom: 100px;
+}
+.s{
+    display: flex;
+    font-size: 100px;
+    font-family: sans-serif;
+    left: -27%;
+    top: -20%;
+    position: absolute;
+}
+.m{
+    display: flex;
+    font-size: 120px;
+    font-family: sans-serif;
+    left: -27%;
+    top: 45%;
+    position: absolute;
+}
